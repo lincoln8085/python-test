@@ -1,0 +1,5 @@
+print("Enter 2 nos to add")
+n1=  input("Enter the number ")
+n2= input("Enter the 2nd number ")
+result= float(n1)+float(n2)
+print("the sum of 2 nos is ",result , "thank you")
