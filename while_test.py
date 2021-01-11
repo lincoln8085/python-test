@@ -57,4 +57,4 @@ while guess!=secret_word and not(out_of_guess):
 if out_of_guess:
     print("your are out of guess. you lose")
 else:
-    print("voila. you win")
+    print("voila. you are a champion. you win ")
