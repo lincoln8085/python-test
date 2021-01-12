@@ -55,6 +55,6 @@ while guess!=secret_word and not(out_of_guess):
         out_of_guess=True
 
 if out_of_guess:
-    print("your are out of guess. you lose")
+    print("your are out of guess. you lose. Correct answer is ",secret_word)
 else:
-    print("voila. you are a champion. you win ")
+    print("voila. you are a champion. you win. Correct answer is ",secret_word)
