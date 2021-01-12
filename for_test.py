@@ -20,16 +20,18 @@ for i in num:
 
 print(sum)
 print("")
-#range()
 
+#range()
 for i in range(4):
     print(i)
 
 print("")
+
 for i in range(1,6):
     print(i)
 
 print("")
+
 x=input("enter range ")
 for i in range(int(x)):
     print(i)
@@ -38,7 +40,6 @@ for i in range(int(x)):
 print("")
 
 #print a list using len and range
-
 for i in range(len(list)):
     print(list[i])
 
@@ -62,11 +63,9 @@ for i in range(int(y)):
     power=power*int(x)
 
 print(int(power))
+print("")
 
 #using function for maths
-
-print("welcome to sqr a number ")
-
 def exp(num,pwr):
     power=1
     for i in range(pwr):
@@ -78,3 +77,5 @@ x= input("enter the number ")
 y=input("enter the power")
 q=exp(int(x),int(y))
 print(int(q))
+
+print("")
